@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicByPics", "PicByPics\PicByPics.csproj", "{161D1F16-93F4-4835-A135-1EF89F92F969}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicByPics", "PicByPics\PicByPics.csproj", "{2353C0D1-E3FF-4F56-AEA6-07CE2CC1C5B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{161D1F16-93F4-4835-A135-1EF89F92F969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{161D1F16-93F4-4835-A135-1EF89F92F969}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{161D1F16-93F4-4835-A135-1EF89F92F969}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{161D1F16-93F4-4835-A135-1EF89F92F969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2353C0D1-E3FF-4F56-AEA6-07CE2CC1C5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2353C0D1-E3FF-4F56-AEA6-07CE2CC1C5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2353C0D1-E3FF-4F56-AEA6-07CE2CC1C5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2353C0D1-E3FF-4F56-AEA6-07CE2CC1C5B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
