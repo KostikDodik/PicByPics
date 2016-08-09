@@ -1,1 +1,8 @@
 E:\SMRTNKY\Прожки\PicByPics\PicByPics\bin\Debug\PicByPics.exe.config
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\bin\Debug\PicByPics.exe
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\bin\Debug\PicByPics.pdb
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.csprojResolveAssemblyReference.cache
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.Properties.Resources.resources
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.csproj.GenerateResource.Cache
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.exe
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.pdb
