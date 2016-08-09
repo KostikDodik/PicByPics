@@ -41,6 +41,7 @@ namespace PicByPics
                     {
                         PicPart.parts.Add(new PicPart(new Bitmap(f.FullName)));
                         StatusLabel.Text = "Loading sticks. Loaded "+ PicPart.parts.Count +" pictures.";
+                        GC.Collect();
                     }
                 }
             }
