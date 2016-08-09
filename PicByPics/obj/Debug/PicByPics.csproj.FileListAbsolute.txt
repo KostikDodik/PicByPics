@@ -6,3 +6,4 @@ E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.Properties.Resou
 E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.csproj.GenerateResource.Cache
 E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.exe
 E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.pdb
+E:\SMRTNKY\Прожки\PicByPics\PicByPics\obj\Debug\PicByPics.Form1.resources
