@@ -41,9 +41,10 @@ namespace PicByPics
                     {
                         PicPart.parts.Add(new PicPart(new Bitmap(f.FullName)));
                         StatusLabel.Text = "Loading sticks. Loaded "+ PicPart.parts.Count +" pictures.";
-                        GC.Collect();
                     }
                 }
+                var a = PicPart.rgbMap;
+                GC.Collect();
             }
             catch (Exception err)
             {
@@ -80,10 +81,14 @@ namespace PicByPics
             if (PicPart.parts.Count > 1 && !originalPicture.Equals(null))
             {
                 int mat=5, size=30;
+                var a = (Environment.TickCount / 1000);
                 Int32.TryParse(MatrixTB.Text, out mat);
                 Int32.TryParse(SizeTB.Text, out size);
-                Worker.mozaikPic(new Bitmap(originalPicture, originalPicture.Width / mat, originalPicture.Height / mat), size).Save(SaveTB.Text);
-                StatusLabel.Text = "Initiating with matrix size "+ mat + 'X' + mat +"pxl and sticks' size " + size + 'X' +size + "pxl.";
+                StatusLabel.Text = "Initiating with matrix size " + mat + 'X' + mat + "pxl and sticks' size " + size + 'X' + size + "pxl.";
+                Worker.mozaikPic(Worker.roundPixels(originalPicture,mat,mat), size).Save(SaveTB.Text);
+                a-=(Environment.TickCount / 1000);
+                MessageBox.Show((-a).ToString());
+                
             }
             else StatusLabel.Text = "You missed some important part";
         }
